@@ -23,7 +23,7 @@ public class PersonController {
     ArrayList<Person> listPerson = new ArrayList<Person>();
     int contador = 1;
 
-    @GetMapping
+    @GetMapping 
     public ResponseEntity<List<Person>> getListPerson() {
         if (listPerson.size() <= 0) {
             return new ResponseEntity<List<Person>>(this.listPerson, HttpStatus.NOT_FOUND);
