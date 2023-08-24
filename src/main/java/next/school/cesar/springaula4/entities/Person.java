@@ -12,8 +12,6 @@ public class Person {
         this.age = age;
     }
 
-    
-
     /**
      * @return String return the name
      */
